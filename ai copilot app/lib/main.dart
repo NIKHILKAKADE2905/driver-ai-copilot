@@ -16,7 +16,7 @@ import 'package:url_launcher/url_launcher.dart';
 // --- SERVER CONFIGURATION ---
 // Emulator URL: "http://10.0.2.2:8000"
 // Physical Device URL: "http://<YOUR_LOCAL_IP>:8000"
-const String kBackendBaseUrl = "http://192.168.0.101:8000";
+const String kBackendBaseUrl = "http://<YOUR_LOCAL_IP>:8000";
 
 void main() {
   runApp(const MyApp());
