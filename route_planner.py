@@ -267,10 +267,10 @@ class RoutePlanner:
 # EXECUTION / DRIVER SCRIPT
 # =====================================================================
 if __name__ == "__main__":
-    START_LATITUDE = 19.24676742182852
-    START_LONGITUDE = 73.12047607739554
-    DESTINATION_ADDRESS = "Dombivli, Maharashtra, India"
-    SEARCH_QUERY = "petrol pump"
+    START_LATITUDE = current latitude
+    START_LONGITUDE = current longitude
+    DESTINATION_ADDRESS = destination
+    SEARCH_QUERY = place
 
     planner = RoutePlanner()
 
