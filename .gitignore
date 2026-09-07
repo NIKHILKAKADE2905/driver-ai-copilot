@@ -1,0 +1,33 @@
+# Experimental / archive
+code files from project code/
+
+# Local Flutter tree (repo copy lives in "ai copilot app")
+flutter project/
+
+# Secrets and machine files
+.env
+.env.local
+**/.env
+**/.env.local
+*.pem
+ai_copilot.pem
+**/*.jks
+**/*.keystore
+**/key.properties
+**/local.properties
+
+# Python
+**/__pycache__/
+**/.venv/
+**/*.egg-info/
+**/dist/
+**/wheels/
+
+# Flutter / Android build
+**/.dart_tool/
+**/build/
+**/.flutter-plugins-dependencies
+**/.idea/
+**/*.iml
+**/.kotlin/
+.DS_Store

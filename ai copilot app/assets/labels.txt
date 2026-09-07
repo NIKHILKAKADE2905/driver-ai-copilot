@@ -1,0 +1,6 @@
+eye_closed
+eye_open
+head_dropped
+head_straight
+no_yawn
+yawn
